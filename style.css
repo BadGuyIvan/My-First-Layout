@@ -8,8 +8,14 @@ header .row {
 }
 
 header .logotype {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center
 }
 
 header .logotype .img-responsive {
@@ -22,10 +28,18 @@ header .header_contacts {
     height: 100px;
     padding-top: 35px;
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #009ade;
-    transform: skewX(-25deg)
+    -webkit-transform: skewX(-25deg);
+        -ms-transform: skewX(-25deg);
+            transform: skewX(-25deg)
 }
 
 header .header_contacts li .header_phone {
@@ -43,27 +57,39 @@ header .header_contacts li a {
 header .header_contacts li .phone {
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%
+    -webkit-border-radius: 50%;
+            border-radius: 50%
 }
 
 header .header_contacts li .local {
     margin-bottom: -2px;
     padding: 9.5px 12px 9.5px 12px;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50%
+    -webkit-border-radius: 50%;
+            border-radius: 50%
 }
 
 header .header_contacts .header_center {
-    transform: skewX(25deg)
+    -webkit-transform: skewX(25deg);
+        -ms-transform: skewX(25deg);
+            transform: skewX(25deg)
 }
 
 header .header_lan {
     height: 100px;
     line-height: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-color: #404040;
-    transform: skewX(-25deg)
+    -webkit-transform: skewX(-25deg);
+        -ms-transform: skewX(-25deg);
+            transform: skewX(-25deg)
 }
 
 header .header_lan ul li a {
@@ -77,12 +103,15 @@ header .header_lan ul li a:hover {
     height: 40px;
     padding: 5px;
     border: 2px solid #009ade;
-    border-radius: 50%;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
     margin: -7px
 }
 
 header .header_lan .heade_lan {
-    transform: skewX(25deg)
+    -webkit-transform: skewX(25deg);
+        -ms-transform: skewX(25deg);
+            transform: skewX(25deg)
 }
 
 nav {
@@ -92,8 +121,14 @@ nav {
 nav .list-inline {
     text-transform: uppercase;
     margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center
 }
 
 nav .list-inline li {
@@ -161,7 +196,8 @@ section#title .title .list-inline button {
 section#title .title .list-inline li #ReadMore {
     background: transparent;
     border: 2px solid #009ade;
-    border-radius: 5px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
     background-image: url("icon/arrow.png");
     background-position: 132px 19px;
     background-repeat: no-repeat
@@ -177,7 +213,8 @@ section#title .title .list-inline li #ReadMore:hover {
 section#title .title .list-inline li #Dealer {
     background: #8cb623;
     border: none;
-    border-radius: 5px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
     font-weight: bold
 }
 
@@ -216,7 +253,8 @@ section#news_events .row .carousel-indicators li {
     background: #dfdfdf;
     border: 1px solid #dfdfdf;
     width: 38px;
-    border-radius: 0
+    -webkit-border-radius: 0;
+            border-radius: 0
 }
 
 section#news_events .row .carousel-indicators li.active {
@@ -228,8 +266,14 @@ section#news_events .row .col-md-4 .cut_image {
     position: relative;
     z-index: 1;
     margin: 0px auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 30px;
     width: 350px;
     height: 210px;
@@ -296,8 +340,14 @@ section#news_events #line_2 {
 }
 
 #separator {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px
 }
@@ -308,8 +358,14 @@ section#success {
 }
 
 section#success .success .people {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 67px
 }
 
@@ -326,8 +382,14 @@ section#success .success .people p {
 }
 
 section#success .success .installation {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 67px
 }
 
@@ -344,8 +406,14 @@ section#success .success .installation p {
 }
 
 section#success .success .dealer_area {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 67px
 }
 
@@ -362,8 +430,14 @@ section#success .success .dealer_area p {
 }
 
 section#success .success .company_growth {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 67px
 }
 
@@ -531,7 +605,8 @@ section#about .col-md-12 .carousel-indicators li {
     background: #dfdfdf;
     border: 1px solid #dfdfdf;
     width: 38px;
-    border-radius: 0
+    -webkit-border-radius: 0;
+            border-radius: 0
 }
 
 section#about .col-md-12 .carousel-indicators li.active {
@@ -546,7 +621,8 @@ section#about .col-md-12 .about-text {
     height: 360px;
     width: 706px;
     background: #ffffff;
-    box-shadow: 0 0 17px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 0 17px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 0 17px rgba(0, 0, 0, 0.25);
     z-index: 1
 }
 
@@ -646,7 +722,8 @@ section#review .carousel-indicators li {
     background: #dfdfdf;
     border: 1px solid #dfdfdf;
     width: 38px;
-    border-radius: 0
+    -webkit-border-radius: 0;
+            border-radius: 0
 }
 
 section#review .carousel-indicators li.active {
@@ -756,7 +833,9 @@ footer .bottom_fotter {
 }
 
 footer .bottom_fotter .fotter-menu {
-    column-count: 2;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
     list-style: none;
     margin-top: 15px
 }
